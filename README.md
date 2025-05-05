@@ -1,8 +1,8 @@
 # 🚀 Traveo T2G Examples
 
-This repository contains a collection of hands-on examples for the **Infineon Traveo II (T2G)** microcontroller family, developed using **Visual Studio Code** and **ModusToolbox**.
+This repository contains a collection of practical examples for the **Infineon Traveo II (T2G)** microcontroller family, developed using **ModusToolbox** and **Visual Studio Code**.
 
-Each project is designed to demonstrate the configuration and usage of various peripheral drivers using the **Peripheral Driver Library (PDL)**, helping developers quickly get started with embedded systems based on Traveo T2G.
+Each example demonstrates the use and configuration of various peripherals via the **Peripheral Driver Library (PDL)**, helping developers get started quickly with real hardware and hands-on code.
 
 ---
 
@@ -12,42 +12,46 @@ Each project is designed to demonstrate the configuration and usage of various p
 - Visual Studio Code (with optional Infineon extensions)
 - Device Configurator
 - Peripheral Driver Library (PDL)
-- KIT_T2G-B-E_Lite (primary test board)
+- KIT_T2G-B-E_Lite (main test board)
 
 ---
 
 ## 📁 Example Categories
 
-| Category         | Description                                |
-|------------------|--------------------------------------------|
-| `01_Blinky_LED`  | Basic GPIO examples (LEDs, buttons)        |
-| `02_Switch_GPIO` | Basic Read GPIOs                           |
-| `03_ADC`         | Analog reading via ADC                     |
-| `04_UART`        | UART Tx/Rx using polling and interrupts    |
-| `05_PWM`         | LED dimming,                               |
-| `06_I2C`         | I2C communication with sensors/EEPROM      |
-| `07_SPI`         | SPI communication                          |
-| `08_DualCore`    | IPC and shared memory between CM0+ and CM4 |
-| `09_Advanced`    | Power modes, bootloader, protocols         |
+| Category              | Description                                           |
+|-----------------------|-------------------------------------------------------|
+| `01_Blinky_LED`       | Basic GPIO control: toggling LEDs                     |
+| `02_Switch_GPIO`      | Reading GPIO input from switches                      |
+| `03_ADC`              | Reading analog signals using the ADC                 |
+| `04_PWM`              | Generating PWM signals (e.g., for dimming LEDs)       |
+| `05_ADC_PWM`          | Controlling PWM duty cycle with ADC input             |
+| `06_Emulate_EEPROM`   | EEPROM emulation using Flash memory                   |
+| `07_UART_Polling`     | UART communication using polling                      |
+| `08_UART_Interrupt`   | UART communication using interrupts                   |
+| `09_SPI_Polling`      | SPI communication using polling                       |
+| `10_SPI_Interrupt`    | SPI communication using interrupts                    |
+| `11_I2C_Polling`      | I2C communication using polling                       |
+| `12_I2C_Interrupt`    | I2C communication using interrupts                    |
+| `13_DualCore`         | Inter-core communication between CM0+ and CM4 using IPC |
 
-Each folder contains a `README.md` with step-by-step instructions, source code, and configuration notes.
+Each folder includes a `README.md` with step-by-step instructions, source code, and configuration details.
 
 ---
 
 ## 🧠 Project Goals
 
-- Provide clear and minimal working examples for every peripheral
-- Help new users get started quickly with Traveo II development
-- Encourage community contributions and learning
+- Deliver simple, clean, and working examples for each key peripheral
+- Help developers and students quickly start programming the Traveo II
+- Encourage learning, exploration, and community contribution
 
 ---
 
 ## ✅ Getting Started
 
 1. Clone this repository
-2. Open the desired project in Visual Studio Code
-3. Launch Device Configurator and generate code
-4. Build and flash using `make build` and `make program`
+2. Open the desired example folder in **Visual Studio Code**
+3. Launch the **Device Configurator** and generate code
+4. Compile and flash to the board using:
 
 For more details, see the individual example folders.
 

@@ -46,5 +46,3 @@ This example demonstrates how to read push-button inputs and control two onboard
 3. Open **Device Configurator** (`design.modus`) and confirm pin settings.
 4. Click **Generate Application**.
 5. Build and flash the board:
-
-

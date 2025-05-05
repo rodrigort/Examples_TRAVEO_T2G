@@ -18,18 +18,17 @@ Each project is designed to demonstrate the configuration and usage of various p
 
 ## 📁 Example Categories
 
-| Category         | Description                             |
-|------------------|-----------------------------------------|
-| `01_Blinky_LED`  | Basic GPIO examples (LEDs, buttons)     |
-| `02_Switch_GPIO` | Timer-based delays and interrupts       |
-| `03_PWM`         | LED dimming, servo control              |
-| `04_UART`        | UART Tx/Rx using polling and interrupts |
-| `05_ADC`         | Analog reading via ADC                  |
-| `06_I2C`         | I2C communication with sensors/EEPROM   |
-| `07_SPI`         | SPI communication                       |
-| `08_CAN`         | CAN loopback and basic messaging        |
-| `09_DualCore`    | IPC and shared memory between CM0+ and CM4 |
-| `10_Advanced`    | Power modes, bootloader, protocols      |
+| Category         | Description                                |
+|------------------|--------------------------------------------|
+| `01_Blinky_LED`  | Basic GPIO examples (LEDs, buttons)        |
+| `02_Switch_GPIO` | Basic Read GPIOs                           |
+| `03_ADC`         | Analog reading via ADC                     |
+| `04_UART`        | UART Tx/Rx using polling and interrupts    |
+| `05_PWM`         | LED dimming,                               |
+| `06_I2C`         | I2C communication with sensors/EEPROM      |
+| `07_SPI`         | SPI communication                          |
+| `08_DualCore`    | IPC and shared memory between CM0+ and CM4 |
+| `09_Advanced`    | Power modes, bootloader, protocols         |
 
 Each folder contains a `README.md` with step-by-step instructions, source code, and configuration notes.
 

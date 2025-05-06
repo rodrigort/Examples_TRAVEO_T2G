@@ -2,6 +2,8 @@
 
 This example demonstrates how to use the **PWM** peripheral of the **TRAVEO T2G** microcontroller to create a smooth fade effect on an onboard LED using pin **P5.0**.
 
+🔗 [Back to Main Repository](https://github.com/rodrigort/Examples_TRAVEO_T2G)
+
 ---
 
 ### 🛠️ Description

@@ -8,7 +8,7 @@ This example demonstrates how to use the **PWM** peripheral of the **TRAVEO T2G*
 
 ### 🛠️ Description
 
-- PWM output is configured at 10 MHz
+- PWM output is configured at 3.82 KHz
 - Duty cycle is dynamically changed to produce a fade-in and fade-out effect
 - LED connected to **P5.0** fades up and down continuously
 
@@ -19,7 +19,7 @@ This example demonstrates how to use the **PWM** peripheral of the **TRAVEO T2G*
 - **ModusToolbox 3.x** with **Device Configurator**
 - **Visual Studio Code** or **ModusToolbox IDE**
 - **Target Board**: [KIT_T2G-B-E_Lite](https://www.infineon.com/cms/en/product/evaluation-boards/kit_t2g-b-e_lite/)
-- **PWM Top Value**: 13110 (for 10 MHz clock)
+- **PWM Top Value**: 13110 (for 3.82 KHz clock)
 - **Fade Step**: 50
 - **Delay Between Steps**: 5 ms
 
@@ -40,7 +40,7 @@ Make sure P5.0 is configured as **PWM Output**, Strong Drive, Input buffer OFF.
 1. Open the project folder in Visual Studio Code or ModusToolbox IDE
 2. Use Device Configurator to:
    - Assign **PWM_0** to **P5.0**
-   - Set period to **13110** (for 10 MHz)
+   - Set period to **13110** (for  3.82 KHz)
    - Enable Compare0 swapping for dynamic control
 3. Click **"Generate Application"**
 4. Build and program the board

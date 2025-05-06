@@ -22,8 +22,8 @@ Each example demonstrates the use and configuration of various peripherals via t
 |-----------------------|-------------------------------------------------------|
 | `01_Blinky_LED`       | Basic GPIO control: toggling LEDs                     |
 | `02_Switch_GPIO`      | Reading GPIO input from switches                      |
-| `03_ADC`              | Reading analog signals using the ADC                 |
-| `04_PWM`              | Generating PWM signals (e.g., for dimming LEDs)       |
+| `03_ADC`              | Reading analog signals using the ADC                  |
+| `04_PWM_Fade_LED`     | LED brightness fade using PWM on pin P5.0            |
 | `05_ADC_PWM`          | Controlling PWM duty cycle with ADC input             |
 | `06_Emulate_EEPROM`   | EEPROM emulation using Flash memory                   |
 | `07_UART_Polling`     | UART communication using polling                      |
@@ -51,7 +51,7 @@ Each folder includes a `README.md` with step-by-step instructions, source code, 
 1. Clone this repository
 2. Open the desired example folder in **Visual Studio Code**
 3. Launch the **Device Configurator** and generate code
-4. Compile and flash to the board using:
+4. Compile and flash to the board using ModusToolbox build tools
 
 For more details, see the individual example folders.
 
@@ -64,7 +64,7 @@ This repository was created to support the community and improve embedded develo
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💼 Author
 
 **Rodrigo Rodrigues** – Electrical Engineer & Embedded Systems Developer  
 

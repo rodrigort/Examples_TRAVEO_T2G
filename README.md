@@ -26,7 +26,7 @@ Each example demonstrates the use and configuration of various peripherals via t
 | `03_ADC`              | Reading analog signals using the ADC                  |
 | `04_PWM_Fade_LED`     | LED brightness fade using PWM on pin P5.0            |
 | `05_ADC_PWM`          | Controlling PWM duty cycle with ADC input             |
-| `05_ADC_PWM_UART`     | ADC to PWM with UART output via printf (retarget-io)  |
+| `05_ADC_PWM_2V`       | ADC to PWM with UART output via printf (retarget-io)  |
 | `06_Emulate_EEPROM`   | EEPROM emulation using Flash memory                   |
 | `07_UART_Polling`     | UART communication using polling                      |
 | `08_UART_Interrupt`   | UART communication using interrupts                   |

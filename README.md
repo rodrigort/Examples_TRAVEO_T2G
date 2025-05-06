@@ -41,7 +41,7 @@ Each folder includes a `README.md` with step-by-step instructions, source code, 
 ## 🧠 Project Goals
 
 - Deliver simple, clean, and working examples for each key peripheral
-- Help developers and students quickly start programming the Traveo II
+- Help developers and students quickly start programming the Traveo T2G
 - Encourage learning, exploration, and community contribution
 
 ---

@@ -66,7 +66,7 @@ This repository was created to support the community and improve embedded develo
 
 ## 👨‍💻 Author
 
-**Rodrigo Teixeira** – Electrical Engineer & Embedded Systems Developer  
+**Rodrigo Rodrigues** – Electrical Engineer & Embedded Systems Developer  
 
 ---
 

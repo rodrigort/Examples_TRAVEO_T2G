@@ -12,7 +12,7 @@ Each example demonstrates the use and configuration of various peripherals via t
 - Visual Studio Code (with optional Infineon extensions)
 - Device Configurator
 - Peripheral Driver Library (PDL)
-- KIT_T2G-B-E_Lite (main test board)
+- KIT_T2G-B-E_Lite[https://www.infineon.com/cms/en/product/evaluation-boards/kit_t2g-b-e_lite/] (main test board)
 
 ---
 

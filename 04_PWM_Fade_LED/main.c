@@ -5,7 +5,7 @@
 *   This example demonstrates how to configure and use the PWM peripheral 
 *   of the TRAVEO T2G microcontroller to create a "fade" effect on an LED.
 *   The brightness of the LED gradually increases and decreases by varying the
-*   PWM duty cycle from 0 to 100% and back, using a timer clocked at 10 MHz.
+*   PWM duty cycle from 0 to 100% and back, using a timer clocked at 3.82 KHz.
 *
 * Hardware Used:
 *   - KIT_T2G-B-E_Lite
@@ -28,7 +28,7 @@
 /******************************************************************************
 * Macros
 *******************************************************************************/
-#define PWM_MAX_COMPARE 13110             // Maximum compare value for 10 MHz PWM signal
+#define PWM_MAX_COMPARE 13110             // Maximum compare value for 3.82 KHz PWM signal
 #define FADE_STEP       50                // Step size for PWM duty cycle increment/decrement
 #define FADE_DELAY_MS   5                 // Delay in milliseconds between steps
 

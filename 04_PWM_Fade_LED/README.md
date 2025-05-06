@@ -29,7 +29,7 @@ This example demonstrates how to use the **PWM** peripheral of the **TRAVEO T2G*
 
 | Symbol     | Pin   | Function   | Direction | Note                         |
 |------------|-------|------------|-----------|------------------------------|
-| LED_PWM    | P5.0  | PWM Output | Output    | On-board LED (fade effect)  |
+|PWM_Fade_LED| P5.0  | PWM Output | Output    | On-board LED (fade effect)  |
 
 Make sure P5.0 is configured as **PWM Output**, Strong Drive, Input buffer OFF.
 

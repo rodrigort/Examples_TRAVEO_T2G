@@ -1,6 +1,6 @@
 # 🚀 Traveo T2G Examples
 
-This repository contains a collection of practical examples for the **Infineon Traveo II (T2G)** microcontroller family, developed using **ModusToolbox** and **Visual Studio Code**.
+This repository contains a collection of practical examples for the **Infineon Traveo (T2G)** microcontroller family, developed using **ModusToolbox** and **Visual Studio Code**.
 
 Each example demonstrates the use and configuration of various peripherals via the **Peripheral Driver Library (PDL)**, helping developers get started quickly with real hardware and hands-on code.
 

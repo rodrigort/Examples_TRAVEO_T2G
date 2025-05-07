@@ -1,6 +1,9 @@
 # 🚀 Traveo T2G Examples
 
-This repository contains a collection of practical examples for the **Infineon Traveo (T2G)** microcontroller family, developed using **ModusToolbox** and **Visual Studio Code**.
+![Platform](https://img.shields.io/badge/platform-Traveo%20T2G-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+
+This repository contains a collection of practical examples for the **Infineon Traveo II (T2G)** microcontroller family, developed using **ModusToolbox** and **Visual Studio Code**.
 
 Each example demonstrates the use and configuration of various peripherals via the **Peripheral Driver Library (PDL)**, helping developers get started quickly with real hardware and hands-on code.
 
@@ -18,24 +21,22 @@ Each example demonstrates the use and configuration of various peripherals via t
 
 ## 📁 Example Categories
 
-
-| Category              | Description                                           |
-|-----------------------|-------------------------------------------------------|
-| [`01_Blinky_LED`](https://github.com/rodrigort/Examples_TRAVEO_T2G/tree/main/01_Blinky_LED)       | Basic GPIO control: toggling LEDs                     |
-| [`02_Switch_GPIO`](https://github.com/rodrigort/Examples_TRAVEO_T2G/tree/main/02_Switch_GPIO)      | Reading GPIO input from switches                      |
-| [`03_ADC`](https://github.com/rodrigort/Examples_TRAVEO_T2G/tree/main/03_ADC)              | Reading analog signals using the ADC                  |
-| [`04_PWM_Fade_LED`](https://github.com/rodrigort/Examples_TRAVEO_T2G/tree/main/04_PWM_Fade_LED)     | LED brightness fade using PWM on pin P5.0            |
-| [`05_ADC_PWM`](https://github.com/rodrigort/Examples_TRAVEO_T2G/tree/main/05_ADC_PWM)          | Controlling PWM duty cycle with ADC input             |
-| [`05_ADC_PWM_2V`](https://github.com/rodrigort/Examples_TRAVEO_T2G/tree/main/05_ADC_PWM_2V)       | ADC to PWM with UART output via printf (retarget-io)  |
-| [`06_Emulate_EEPROM`](https://github.com/rodrigort/Examples_TRAVEO_T2G/tree/main/06_Emulate_EEPROM)   | EEPROM emulation using Flash memory                   |
-| `07_UART_Polling`     | UART communication using polling                      |
-| `08_UART_Interrupt`   | UART communication using interrupts                   |
-| `09_SPI_Polling`      | SPI communication using polling                       |
-| `10_SPI_Interrupt`    | SPI communication using interrupts                    |
-| `11_I2C_Polling`      | I2C communication using polling                       |
-| `12_I2C_Interrupt`    | I2C communication using interrupts                    |
-| `13_DualCore`         | Inter-core communication between CM0+ and CM4 using IPC |
-
+| Category                      | Description                                                               |
+|-------------------------------|---------------------------------------------------------------------------|
+| [`01_Blinky_LED`](./01_Blinky_LED)             | Basic GPIO control: toggling LEDs                                           |
+| [`02_Switch_GPIO`](./02_Switch_GPIO)           | Reading GPIO input from switches                                            |
+| [`03_ADC`](./03_ADC)                          | Reading analog signals using the ADC                                       |
+| [`04_PWM_Fade_LED`](./04_PWM_Fade_LED)         | LED brightness fade using PWM on pin P5.0                                  |
+| [`05_ADC_PWM`](./05_ADC_PWM)                   | Controlling PWM duty cycle with ADC input                                  |
+| [`05_ADC_PWM_UART`](./05_ADC_PWM_UART)         | ADC to PWM with UART output via printf (retarget-io)                       |
+| [`06_Emulate_EEPROM`](./06_Emulate_EEPROM)     | Save, read, and erase values using emulated EEPROM and buttons            |
+| [`07_UART_Polling`](./07_UART_Polling)         | UART communication using polling                                            |
+| [`08_UART_Interrupt`](./08_UART_Interrupt)     | UART communication using interrupts                                         |
+| [`09_SPI_Polling`](./09_SPI_Polling)           | SPI communication using polling                                             |
+| [`10_SPI_Interrupt`](./10_SPI_Interrupt)       | SPI communication using interrupts                                          |
+| [`11_I2C_Polling`](./11_I2C_Polling)           | I2C communication using polling                                             |
+| [`12_I2C_Interrupt`](./12_I2C_Interrupt)       | I2C communication using interrupts                                          |
+| [`13_DualCore`](./13_DualCore)                 | Inter-core communication between CM0+ and CM4 using IPC                    |
 
 Each folder includes a `README.md` with step-by-step instructions, source code, and configuration details.
 
@@ -67,9 +68,11 @@ This repository was created to support the community and improve embedded develo
 
 ---
 
-## 👨‍💼 Author
+## 👨‍💻 Author
 
-**Rodrigo Rodrigues** – Electrical Engineer & Embedded Systems Developer  
+**Rodrigo Rodrigues**  
+Electrical Engineer & Embedded Systems Developer  
+Passionate about real-time systems, power electronics, and building knowledge to share with the community.
 
 ---
 

@@ -3,11 +3,20 @@
 *
 * Description:
 * Example 05 – ADC to PWM with UART Debug:
-* Reads analog voltage from pin P6.0, maps it to a PWM duty cycle (on P5.0),
-* and sends both values via UART using printf (retarget-io).
+* This example reads analog voltage from pin P6.0 using the 12-bit ADC,
+* maps the result to a PWM duty cycle, and sends both the ADC value and
+* the calculated PWM compare value via UART using printf (retarget-io).
 *
-* Author: Rodrigo Rodrigues
+* - ADC Input: P6.0
+* - PWM Output: P5.0
+* - UART Debug Output: Retarget-IO (printf)
+*
+* Related Document: See README.md
+*
+********************************************************************************
+* Author: Rodrigo Teixeira
 *******************************************************************************/
+
 
 #include "cybsp.h"                 // Board support package: handles pin, clock and peripheral setup
 #include "cy_retarget_io.h"        // Retarget I/O library: allows printf to work with UART

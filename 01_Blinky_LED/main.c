@@ -2,15 +2,19 @@
 * File Name:   main.c
 *
 * Description:
-* Simple example to blink LED 3 using the Traveo II microcontroller
-* with the KIT_T2G-B-E_Lite evaluation board.
+* Example 01 – Blinky LED:
+* This example toggles the onboard LED (connected to P5.0) every 1 second
+* using the Cy_SysLib_Delay() function. The LED uses active-low logic.
 *
-* The LED is connected to pin P5_0 with pull-up logic, meaning it turns ON
-* when the GPIO output is set to LOW (0V), and OFF when set to HIGH (3.3V).
+* - LED Output: P5.0
+* - Logic: ON = LOW, OFF = HIGH
 *
-* The LED will blink every 1 second using Cy_SysLib_Delay().
+* Related Document: See README.md
 *
+********************************************************************************
+* Author: Rodrigo Teixeira
 *******************************************************************************/
+
 
 /*******************************************************************************
 * Header Files

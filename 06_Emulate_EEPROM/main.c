@@ -2,14 +2,21 @@
 * File Name:   main.c
 *
 * Description:
-* Example 06 – Emulate EEPROM with UART and Button Control
-* - Increments a counter from 0 to 65535
-* - BTN2 (P5.3): Saves the current value to emulated EEPROM
-* - BTN1 (P17.0): Reads and prints the stored value from EEPROM
-* - LED feedback optional (defined in Device Configurator)
+* Example 06 – Emulate EEPROM with UART and Button Control:
+* This example emulates EEPROM memory using flash and allows storing
+* and retrieving a 16-bit counter value through button inputs.
 *
-* Author: Rodrigo Rodrigues
+* - BTN2 (P5.3): Saves the current counter value to emulated EEPROM
+* - BTN1 (P17.0): Reads and prints the stored value via UART
+* - The counter ranges from 0 to 65535 and increments automatically
+* - LED feedback is optional and configured via Device Configurator
+*
+* Related Document: See README.md
+*
+********************************************************************************
+* Author: Rodrigo Teixeira
 *******************************************************************************/
+
 
 #include "cybsp.h"
 #include "cy_retarget_io.h"

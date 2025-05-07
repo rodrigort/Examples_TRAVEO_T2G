@@ -1,26 +1,20 @@
 /*******************************************************************************
-* File Name: main.c
+* File Name:   main.c
 *
 * Description:
-*   This example demonstrates how to configure and use the PWM peripheral 
-*   of the TRAVEO T2G microcontroller to create a "fade" effect on an LED.
-*   The brightness of the LED gradually increases and decreases by varying the
-*   PWM duty cycle from 0 to 100% and back, using a timer clocked at 3.82 KHz.
+* Example 04 – PWM Fade LED:
+* This example demonstrates how to configure and use the PWM peripheral
+* of the TRAVEO T2G microcontroller to create a fade effect on an LED.
 *
-* Hardware Used:
-*   - KIT_T2G-B-E_Lite
-*   - On-board LED connected to pin P5.0 (configured as PWM output)
+* The LED brightness is gradually increased and decreased by varying the
+* PWM duty cycle from 0% to 100% and back. The PWM timer is clocked at 10 MHz.
 *
-* Related Document:
-*   See the README.md in the project root for setup and build instructions.
+* - PWM Output: P5.0 (active-low LED)
 *
-* Tool Used:
-*   - ModusToolbox 3.X
-*   - Visual Studio Code or Eclipse IDE
+* Related Document: See README.md
 *
-* Author:
-*   Rodrigo Rodrigues
-*
+********************************************************************************
+* Author: Rodrigo Teixeira
 *******************************************************************************/
 
 #include "cybsp.h"                         // Board Support Package

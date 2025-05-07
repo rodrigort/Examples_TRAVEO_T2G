@@ -7,22 +7,19 @@
 * conversion using the 12-bit ADC of the Traveo II microcontroller.
 *
 * The ADC reads voltage from pin P6.0. If the value is greater than 2048
-* (midpoint of 12-bit range), LED 1 (P5.0) is turned ON. Otherwise, it remains OFF.
+* (midpoint of the 12-bit range), LED 1 (P5.0) is turned ON. Otherwise, it remains OFF.
 *
 * - ADC Input: P6.0
 * - LED Output: P5.0 (active-low)
 *
-* This example uses polling and software comparison to control the LED.
+* This example uses polling and software-based threshold comparison.
 *
 * Related Document: See README.md
 *
 ********************************************************************************
-* Copyright 2021-2024, Cypress Semiconductor Corporation (an Infineon company)
-* or an affiliate of Cypress Semiconductor Corporation. All rights reserved.
-*
-* This software is protected by international law and licensed for use only
-* with Infineon microcontroller products, under the terms of the accompanying EULA.
+* Author: Rodrigo Teixeira
 *******************************************************************************/
+
 
 /*******************************************************************************
 * Header Files

@@ -1,8 +1,21 @@
 /*******************************************************************************
 * File Name:   main.c
 *
-* Description: UART Echo Example using polling mode for Traveo T2G.
+* Description:
+* Example 07 – UART Echo (Polling Mode):
+* This example implements a basic UART echo using polling mode.
+* Each received byte is immediately echoed back via UART.
+*
+* - UART RX: P0.0
+* - UART TX: P0.1
+* - Baud Rate: 115200 (8N1)
+*
+* Related Document: See README.md
+*
+********************************************************************************
+* Author: Rodrigo Teixeira
 *******************************************************************************/
+
 
 #include "cy_scb_uart.h"
 #include "cybsp.h"                 // Board Support Package header

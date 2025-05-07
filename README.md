@@ -23,7 +23,7 @@ Each example demonstrates the use and configuration of various peripherals via t
 |-----------------------|-------------------------------------------------------|
 | [`01_Blinky_LED`](https://github.com/rodrigort/Examples_TRAVEO_T2G/tree/main/01_Blinky_LED)       | Basic GPIO control: toggling LEDs                     |
 | [`02_Switch_GPIO`](https://github.com/rodrigort/Examples_TRAVEO_T2G/tree/main/02_Switch_GPIO)      | Reading GPIO input from switches                      |
-| `03_ADC`              | Reading analog signals using the ADC                  |
+| [`03_ADC`](https://github.com/rodrigort/Examples_TRAVEO_T2G/tree/main/03_ADC)              | Reading analog signals using the ADC                  |
 | `04_PWM_Fade_LED`     | LED brightness fade using PWM on pin P5.0            |
 | `05_ADC_PWM`          | Controlling PWM duty cycle with ADC input             |
 | `05_ADC_PWM_2V`       | ADC to PWM with UART output via printf (retarget-io)  |

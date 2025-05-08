@@ -32,8 +32,8 @@ Each example demonstrates the use and configuration of various peripherals via t
 | [`06_Emulate_EEPROM`](./06_Emulate_EEPROM)     | Save, read, and erase values using emulated EEPROM and buttons            |
 | [`07_UART_Polling`](./07_UART_Polling)         | UART communication using polling                                            |
 | [`08_UART_Interrupt`](./08_UART_Interrupt)     | UART communication using interrupts                                         |
-| [`09_SPI_Polling`](./09_SPI_Polling)           | SPI communication using polling                                             |
-| [`10_SPI_Interrupt`](./10_SPI_Interrupt)       | SPI communication using interrupts                                          |
+| [`09_SPI_Polling`](./09_SPI_Polling)         | SPI communication using polling to read temperature from MAX6675 (K-Type)  |
+| [`10_SPI_Interrupt`](./10_SPI_Interrupt)     | SPI communication using interrupts to read temperature from MAX6675 (K-Type) |
 | [`11_I2C_Polling`](./11_I2C_Polling)           | I2C communication using polling                                             |
 | [`12_I2C_Interrupt`](./12_I2C_Interrupt)       | I2C communication using interrupts                                          |
 | [`13_DualCore`](./13_DualCore)                 | Inter-core communication between CM0+ and CM4 using IPC                    |

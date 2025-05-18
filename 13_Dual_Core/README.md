@@ -1,4 +1,4 @@
-# 🔀 12_IPC_ADC – ADC Reading on CM4 + LED Control on CM0+
+# 🔀 13_Dual_Core – ADC Reading on CM4 + LED Control on CM0+
 
 This example demonstrates inter-core communication between the **CM4** and **CM0+** cores of the **Infineon Traveo II (T2G)** MCU, using **12-bit ADC** and **IPC**.
 

@@ -53,7 +53,7 @@ int main(void)
 
     // Initialize LCD and display welcome message
     LCD_init();
-    LCD_OUT(1, 1, "TRAVEO AMR-M0");
+    LCD_OUT(1, 1, "TRAVEO ARM-M0");
 
     // Enable global interrupts
     __enable_irq();
